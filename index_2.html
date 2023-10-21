@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="shortcut icon" href="./assets/images/png/icon.png" type="image/x-icon" />
+    <title>Sell Your App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                container: {
+                    center: true,
+                    padding: {
+                        DEFAULT: "1rem",
+                        lg: "4.375rem",
+                        "2xl": "12.375rem",
+                    },
+                },
+                extend: {
+                    fontSize: {
+                        // xs: "16px",textbase
+                        // sm: "18px",text-lg
+                        // md: "20px",text-xl
+                        // lg: "24px",text-2xl
+                        xxl: "32px",
+                        four_xl: "40px",
+                        five_xl: "56px",
+                        six_xl: "64px",
+                    },
+                    colors: {
+                        dark: "#111111",
+                        gray: "#585858",
+                        blue: "#01639E",
+                        red: "#CB372B",
+                        lightblue: "#C7DAE6",
+                        primary_black: "#0F021D",
+                    },
+                   
+                },
+            },
+        };
+    </script>
+</head>
+
+<body>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/tilt.js@1.1.21/dest/tilt.jquery.min.js"></script>
+    <script>
+        // PRELOADER
+        setTimeout(() => {
+            document.body.classList.remove("overflow-hidden");
+            document.getElementById("pre-loader").style.display = "none";
+        }, 2500);
+        // JavaScript to handle the responsive navigation menu
+        function show() {
+            document.getElementById("navMenu").classList.add("!start-0");
+            document.body.classList.add("overflow-hidden");
+        }
+
+        function hide() {
+            document.getElementById("navMenu").classList.remove("!start-0");
+            document.body.classList.remove("overflow-hidden");
+        }
+
+        // TOP BUTTON
+        const topBtn = document.getElementById("topBtn");
+        window.addEventListener("scroll", function scrollFunction() {
+            if (document.documentElement.scrollTop > 100) {
+                topBtn.style.display = "block";
+            } else {
+                topBtn.style.display = "none";
+            }
+        });
+        const backToTop = () => {
+            document.documentElement.scrollTop = 0;
+        };
+    </script>
+</body>
+
+</html>
