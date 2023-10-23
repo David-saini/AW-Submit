@@ -22,3 +22,8 @@
 .email_box {
     border: 1px solid rgba(255, 255, 255, 0.20);
 }
+
+.card_1 {
+    background: #FFF;
+    box-shadow: -4px 17px 39px 0px rgba(0, 0, 0, 0.12);
+}
