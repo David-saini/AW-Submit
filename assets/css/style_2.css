@@ -11,3 +11,7 @@
 .bg-gradient-main {
     background: linear-gradient(248.43deg, #B80FB6 -51.42%, #553581 66.54%);
 }
+
+.bg-gradient-main:hover {
+    background: linear-gradient(248.43deg, #553581 -51.42%, #B80FB6 66.54%);
+}
