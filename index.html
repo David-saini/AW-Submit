@@ -49,6 +49,201 @@
 </head>
 
 <body>
+    <!-- navbar -->
+    <header>
+        <div class="max-w-[1243px] mx-auto">
+            <div class="py-3 md:py-[18px] mx-4 items-center flex justify-between">
+                <div class="flex justify-between items-center w-full relative z-20">
+                    <img class="cursor-pointer max-w-[150px] lg:max-w-[220px]" src="./assets/images/svg/Logo.svg"
+                        alt="logo" />
+                    <button onclick="show()" class="lg:hidden absolute end-0 text-black">
+                        <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_3942_2072)">
+                                <path d="M3 4.5H21V6.5H3V4.5ZM3 11.5H21V13.5H3V11.5ZM3 18.5H21V20.5H3V18.5Z"
+                                    fill="black" />
+                            </g>
+                        </svg>
+                    </button>
+                </div>
+                <ul class="lg:flex font-semibold flex gap-5 lg:gap-0 lg:flex-row bg-white lg:bg-transparent min-h-screen lg:min-h-fit justify-center items-center w-full lg:relative z-20 fixed left-[-100%] lg:start-0 top-0 flex-col h-full ps-0 transition-all duration-300 ease-linear"
+                    id="navMenu">
+                    <li>
+                        <a onclick="hide()" href="#PARTICIPANTS"
+                            class="ff_plus_jakarta opacity-[1] hover:opacity-[2] duration-300 text-base font-semibold leading-[150%] text-black">PARTICIPANTS</a>
+                    </li>
+                    <li class="lg:ps-9">
+                        <a onclick="hide()" href="#AGENDA"
+                            class="ff_plus_jakarta opacity-[1] hover:opacity-[2] duration-300 text-base font-semibold leading-[150%] text-black">AGENDA</a>
+                    </li>
+                    <li class="lg:ps-9">
+                        <a onclick="hide()" href="#SPEAKERS"
+                            class="ff_plus_jakarta opacity-[1] hover:opacity-[2] duration-300 text-base font-semibold leading-[150%] text-black">SPEAKERS</a>
+                    </li>
+                    <li class="lg:ps-9">
+                        <a onclick="hide()" href="#FAQ"
+                            class="ff_plus_jakarta opacity-[1] hover:opacity-[2] duration-300 text-base font-semibold leading-[150%] text-black">FAQ</a>
+                    </li>
+                    <li class="lg:ps-9">
+                        <a onclick="hide()" href="#LOGIN"
+                            class="ff_plus_jakarta opacity-[1] hover:opacity-[2] duration-300 text-base font-semibold leading-[150%] text-black">LOGIN</a>
+                    </li>
+
+                    <button
+                        class="px-8 py-[10px] border-[1px] text-dark font-extrabold text-base ff_plus_jakarta  border-solid border-[black] lg:ms-16">EXHIBIT</button>
+                    <button onclick="hide()" class="absolute md:hidden top-[15px] right-[20px]">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M25.9846 11.6665L20.0013 17.6498L14.018 11.6665L11.668 14.0165L17.6513 19.9998L11.668 25.9832L14.018 28.3332L20.0013 22.3498L25.9846 28.3332L28.3346 25.9832L22.3513 19.9998L28.3346 14.0165L25.9846 11.6665Z"
+                                fill="black" />
+                        </svg>
+                    </button>
+                </ul>
+                <div class="text-end hidden lg:block ps-5">
+                    <span
+                        class="ff_plus_jakarta py-[10px] px-8 cursor-pointer whitespace-nowrap text-white font-extrabold leading-[150%] bg-gradient-to-r from-[#553581] from-66.54% to-[#B80FB6]">
+                        GET TICKETS</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- OUR EXCLUSIVE DINNERS START-->
+    <section class="bg-[url('/assets/images/png/Hero-Saction.png')] bg-no-repeat bg-center bg-cover">
+        <div class="container py-[141px]">
+            <h2 class="text-center text-white ff_barlow_condensed md:text-six_xl text-[35px] font-bold leading-[110%]">
+                OUR
+                EXCLUSIVE DINNERS</h2>
+            <p class="text-center text-white ff_plus_jakarta font-medium leading-[150%] md:text-xll text-xl">Where
+                networking meets excellence</p>
+        </div>
+    </section>
+
+    <!-- OUR EXCLUSIVE DINNERS END-->
+    <!-- About Start -->
+    <section>
+        <div class="container my-[120px]">
+            <div class="flex xl:flex-row flex-wrap justify-center items-center flex-col-reverse">
+                <div class="xl:w-6/12">
+                    <h2 class="text-four_xl font-semibold text-dark ff_barlow_condensed leading-[120%] mt-10 xl:mt-0">
+                        ABOUT
+                        THE EVENT
+                    </h2>
+                    <p
+                        class="text-xl font-normal ff_plus_jakarta text-dark leading-[170%] opacity-70 xl:pt-10 pt-5 max-w-[557px]">
+                        From Bangkok to
+                        Dubai, Barcelona, Cascais, and beyond, AWSummit's Exclusive Dinners Concept goes to 7
+                        countries, promising an excellent networking experience that combines the art of fine dining
+                        with
+                        the magic of meaningful connections.
+                    </p>
+                    <p
+                        class="text-xl font-normal ff_plus_jakarta text-dark leading-[170%] opacity-70 xl:pt-7 pt-5 max-w-[557px]">
+                        We bring together the finest minds in the industry, top-tier leaders, and affiliates for an
+                        intimate
+                        gathering that goes beyond traditional networking, where conversations are more than just
+                        exchanges
+                        of business cards – they are the foundation for thriving partnerships. This is an opportunity to
+                        share a glass of wine, savor delicious cuisine, and craft relationships that will drive your
+                        business to new heights.
+                    </p>
+
+                </div>
+                <div class="xl:w-6/12 ">
+                    <div class="flex flex-row flex-wrap gap-6 max-w-[750px]">
+                        <div class="w-full flex gap-6">
+                            <div class="w-full">
+                                <img class="w-full" src="assets/images/png/restaurants_1.png" alt="restaurants_1">
+                            </div>
+                            <div class="w-full">
+                                <img class="w-full" src="assets/images/png/restaurants_3.png" alt="restaurants_1">
+                            </div>
+                        </div>
+                        <div class="w-full flex gap-6">
+                            <div class="w-full">
+                                <img class="w-full" src="assets/images/png/restaurants_2.png" alt="restaurants_1">
+                            </div>
+                            <div class="w-full">
+                                <img class="w-full" src="assets/images/png/restaurants_4.png" alt="restaurants_1">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- About END -->
+    <!-- AWSUMMIT BANGKOK START-->
+    <section class="bg-[url('/assets/images/png/awsu.png')] bg-no-repeat bg-center bg-cover" id='LOGIN'>
+        <div class="container py-[131px]">
+            <div class="flex justify-center flex-col ">
+                <h2
+                    class="ff_barlow_condensed md:text-five_xl text-[35px] text-white font-semibold leading-[120%] pb-6 text-center">
+                    AWSUMMIT
+                    BANGKOK</h2>
+                <p class="ff_barlow_condensed md:text-xxl text-xl font-semibold text-white leading-[135%] text-center">
+                    Pastel
+                    Rooftop bar &
+                    Mediterranean Dining</p>
+                <div class="flex justify-center">
+                    <p
+                        class="ff_plus_jakarta md:text-2xl text-[xl] font-medium text-white leading-[125%] pt-4 text-center ">
+                        <span class="pe-3"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M12 11.5C11.337 11.5 10.7011 11.2366 10.2322 10.7678C9.76339 10.2989 9.5 9.66304 9.5 9C9.5 8.33696 9.76339 7.70107 10.2322 7.23223C10.7011 6.76339 11.337 6.5 12 6.5C12.663 6.5 13.2989 6.76339 13.7678 7.23223C14.2366 7.70107 14.5 8.33696 14.5 9C14.5 9.3283 14.4353 9.65339 14.3097 9.95671C14.1841 10.26 13.9999 10.5356 13.7678 10.7678C13.5356 10.9999 13.26 11.1841 12.9567 11.3097C12.6534 11.4353 12.3283 11.5 12 11.5ZM12 2C10.1435 2 8.36301 2.7375 7.05025 4.05025C5.7375 5.36301 5 7.14348 5 9C5 14.25 12 22 12 22C12 22 19 14.25 19 9C19 7.14348 18.2625 5.36301 16.9497 4.05025C15.637 2.7375 13.8565 2 12 2Z"
+                                    fill="white" />
+                            </svg>
+                        </span>Aira Hotel - 22nd floor, 14 Soi Sukhumvit 11
+                    </p>
+                </div>
+                <div class="flex justify-center pt-4">
+                    <p class="ff_plus_jakarta md:text-2xl text-xl font-medium text-white leading-[125%]"><span
+                            class="pe-3"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M2 19C2 20.7 3.3 22 5 22H19C20.7 22 22 20.7 22 19V11H2V19ZM19 4H17V3C17 2.4 16.6 2 16 2C15.4 2 15 2.4 15 3V4H9V3C9 2.4 8.6 2 8 2C7.4 2 7 2.4 7 3V4H5C3.3 4 2 5.3 2 7V9H22V7C22 5.3 20.7 4 19 4Z"
+                                    fill="white" />
+                            </svg>
+                        </span>December 8th </p>
+                    <p class="ff_plus_jakarta md:text-2xl text-xl font-medium text-white leading-[125%]"><span
+                            class="pe-3"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M12 22C6.477 22 2 17.523 2 12C2 6.477 6.477 2 12 2C17.523 2 22 6.477 22 12C22 17.523 17.523 22 12 22ZM13 12V7H11V14H17V12H13Z"
+                                    fill="white" />
+                            </svg>
+                        </span>Time : TBA</p>
+                </div>
+            </div>
+
+            <div class="flex justify-center items-center pt-12">
+                <button
+                    class="bg-gradient-to-r from-[#553581] from-66.54% to-[#B80FB6] px-8 py-4 ff_barlow_condensed text-2xl font-semibold text-white leading-[120%] outline-0 border-0">Sign
+                    Up</button>
+            </div>
+        </div>
+        <div class="bg-[url('/assets/images/png/white_img.png')] bg-no-repeat bg-center bg-cover">
+            <div class="py-7 flex justify-center gap-[70px] overflow-x-scroll ">
+                <div>
+                    <img src="assets/images/svg/Media.svg" alt="Media">
+                </div>
+                <div>
+                    <img src="assets/images/svg/Honeywell.svg" alt="Honeywell">
+                </div>
+                <div>
+                    <img src="assets/images/svg/Traffic.svg" alt="Traffic">
+                </div>
+                <div>
+                    <img src="assets/images/svg/ad_supply.svg" alt="ad_supply">
+                </div>
+                <div>
+                    <img src="assets/images/svg/love.svg" alt="love">
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- destination -->
     <section class="py-32">
@@ -306,7 +501,7 @@
                         <img src="./assets/images/webp/ad_media_card.webp" alt="">
                     </div>
                     <div class="w-3/12">
-                        <img src="./assets/images/webp/ad_media_card.webp" alt="">
+                        <img src="./assets/images/webp/honeywell.png" alt="">
                     </div>
                     <div class="w-3/12">
                         <img src="./assets/images/webp/ad_media_card.webp" alt="">
