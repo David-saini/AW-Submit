@@ -2,44 +2,507 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AW Submit</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="icon" href="./assets/images/webp/AW sumit.webp" type="image/x-icon" />
+    <title>AW SUBMIT</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
     <script>
         tailwind.config = {
             theme: {
                 container: {
                     center: true,
                     padding: {
-                        default: "1rem",
-                        lg: "4.375rem",
-                        "2xl": "12.375rem",
+                        DEFAULT: "1rem",
+                        // lg: "4.375rem",
+                        // "2xl": "12.375rem",
+
                     },
                 },
-                extend: {
-                    fontsize: {
-                        xs: "16px",
 
+                extend: {
+
+                    fontSize: {
+                        // xs: "16px",textbase
+                        // sm: "18px",text-lg
+                        // md: "20px",text-xl
+                        // lg: "24px",text-2xl
+                        xxl: "32px",
+                        four_xl: "40px",
+                        five_xl: "56px",
+                        six_xl: "64px",
                     },
                     colors: {
-                        clifford: '#da373d',
-                    }
-                }
-            }
-        }
-    </script>
+                        dark: "#111111",
+                        gray: "#585858",
+                        blue: "#01639E",
+                        red: "#CB372B",
+                        lightblue: "#C7DAE6",
+                        primary_black: "#0F021D",
+                    },
 
+                },
+            },
+        };
+    </script>
 </head>
 
 <body>
-    <section class="">
-        <div class="">
+
+    <!-- destination -->
+    <section class="py-32">
+        <div class="container max-w-[1140px]">
+            <div class="flex flex-wrap items-center justify-center w-full">
+                <div class="lg:w-3/12 md:4/12 sm:1/2 p-3">
+                    <div class="border-stone-300 border cursor-pointer max-w-[267px] hover:scale-[1.05] transition-all">
+                        <img class="w-100" src="./assets/images/webp/card_img_1.webp" alt="card_img_1">
+                        <h1 class="text-xl ff_plus_jakarta p-5 text-blue font-normal leading-[140%]">AWSUMMIT DUBAI
+                        </h1>
+                        <div class="flex items-center gap-5 ff_plus_jakarta leading-[150%]">
+                            <p class="textbase text-black font-normal ps-5">February 2024</p>
+                            <p class="textbase text-black font-normal">Time :TBA</p>
+                        </div>
+
+                        <p class="ff_plus_jakarta px-5 py-3 textbase text-red font-normal leading-[150%]">Location :TBA
+                        </p>
+
+                        <div class="border text-lightblue mx-5"></div>
+                        <span class="flex items-center justify-center py-4"><img class="max-w-[136px]"
+                                src="./assets/images/webp/dreamcam.webp" alt=""></span>
+                    </div>
+                </div>
+
+                <div class="lg:w-3/12 md:4/12 sm:1/2 p-3">
+                    <div class="border-stone-300 border cursor-pointer max-w-[267px] hover:scale-[1.05] transition-all">
+                        <img src="./assets/images/webp/card_img_2.webp" alt="card_img_1">
+                        <h1 class="text-xl ff_plus_jakarta py-5 ps-5 text-blue font-normal leading-[140%]">
+                            AWSUMMIT
+                            CASCAIS
+                        </h1>
+                        <div class="flex items-center gap-5 ff_plus_jakarta leading-[150%]">
+                            <p class="textbase text-black font-normal ps-5">February 2024</p>
+                            <p class="textbase text-black font-normal">Time :TBA</p>
+                        </div>
+
+                        <p class="ff_plus_jakarta px-5 py-3 textbase text-red font-normal leading-[150%]">Location :TBA
+                        </p>
+
+                        <div class="border text-lightblue mx-5"></div>
+                        <span class="flex items-center justify-center py-4"><img class="max-w-[136px]"
+                                src="./assets/images/webp/dreamcam.webp" alt=""></span>
+                    </div>
+                </div>
+
+                <div class="lg:w-3/12 md:4/12 sm:1/2 p-3">
+                    <div class="border-stone-300 border cursor-pointer max-w-[267px] hover:scale-[1.05] transition-all">
+                        <img src="./assets/images/webp/card_img_3.webp" alt="card_img_1">
+                        <h1 class="text-xl ff_plus_jakarta p-5 text-blue font-normal leading-[140%]">AWSUMMIT IBIZA
+                        </h1>
+                        <div class="flex items-center gap-5 ff_plus_jakarta leading-[150%]">
+                            <p class="textbase text-black font-normal ps-5">Date : TBA</p>
+                            <p class="textbase text-black font-normal">Time :TBA</p>
+                        </div>
+
+                        <p class="ff_plus_jakarta px-5 py-3 textbase text-red font-normal leading-[150%]">Location :TBA
+                        </p>
+
+                        <div class="border text-lightblue mx-5"></div>
+                        <span class="flex items-center justify-center py-4"><img class="max-w-[136px]"
+                                src="./assets/images/webp/dreamcam.webp" alt=""></span>
+                    </div>
+                </div>
+
+                <div class="lg:w-3/12 md:4/12 sm:1/2 p-3">
+                    <div class="border-stone-300 border cursor-pointer max-w-[267px] hover:scale-[1.05] transition-all">
+                        <img src="./assets/images/webp/card_img_4.webp" alt="card_img_1">
+                        <h1 class="text-xl ff_plus_jakarta p-5 text-blue font-normal leading-[140%]">AWSUMMIT DUBAI
+                        </h1>
+                        <div class="flex items-center gap-5 ff_plus_jakarta leading-[150%]">
+                            <p class="textbase text-black font-normal ps-5">July 2024</p>
+                            <p class="textbase text-black font-normal">Time :TBA</p>
+                        </div>
+
+                        <p class="ff_plus_jakarta px-5 py-3 textbase text-red font-normal leading-[150%]">Location :TBA
+                        </p>
+
+                        <div class="border text-lightblue mx-5"></div>
+                        <span class="flex items-center justify-center py-4"><img class="max-w-[136px]"
+                                src="./assets/images/webp/dreamcam.webp" alt=""></span>
+                    </div>
+                </div>
+
+                <div class="lg:w-3/12 md:4/12 sm:1/2 p-3">
+                    <div class="border-stone-300 border cursor-pointer max-w-[267px] hover:scale-[1.05] transition-all">
+                        <img class="w-100" src="./assets/images/webp/card_img_5.webp" alt="card_img_1">
+                        <h1 class="text-xl ff_plus_jakarta p-5 text-blue font-normal leading-[140%]">AWSUMMIT DUBAI
+                        </h1>
+                        <div class="flex items-center gap-5 ff_plus_jakarta leading-[150%]">
+                            <p class="textbase text-black font-normal ps-5">February 2024</p>
+                            <p class="textbase text-black font-normal">Time :TBA</p>
+                        </div>
+
+                        <p class="ff_plus_jakarta px-5 py-3 textbase text-red font-normal leading-[150%]">Location :TBA
+                        </p>
+
+                        <div class="border text-lightblue mx-5"></div>
+                        <span class="flex items-center justify-center py-4"><img class="max-w-[136px]"
+                                src="./assets/images/webp/dreamcam.webp" alt=""></span>
+                    </div>
+                </div>
+
+                <div class="lg:w-3/12 md:4/12 sm:1/2 p-3">
+                    <div class="border-stone-300 border cursor-pointer max-w-[267px] hover:scale-[1.05] transition-all">
+                        <img src="./assets/images/webp/card_img_6.webp" alt="card_img_1">
+                        <h1 class="text-xl ff_plus_jakarta py-5 ps-5 text-blue font-normal leading-[140%]">
+                            AWSUMMIT
+                            CASCAIS
+                        </h1>
+                        <div class="flex items-center gap-5 ff_plus_jakarta leading-[150%]">
+                            <p class="textbase text-black font-normal ps-5">February 2024</p>
+                            <p class="textbase text-black font-normal">Time :TBA</p>
+                        </div>
+
+                        <p class="ff_plus_jakarta px-5 py-3 textbase text-red font-normal leading-[150%]">Location :TBA
+                        </p>
+
+                        <div class="border text-lightblue mx-5"></div>
+                        <span class="flex items-center justify-center py-4"><img class="max-w-[136px]"
+                                src="./assets/images/webp/dreamcam.webp" alt=""></span>
+                    </div>
+                </div>
+
+                <div class="lg:w-3/12 md:4/12 sm:1/2 p-3">
+                    <div class="border-stone-300 border cursor-pointer max-w-[267px] hover:scale-[1.05] transition-all">
+                        <img src="./assets/images/webp/card_img_7.webp" alt="card_img_1">
+                        <h1 class="text-xl ff_plus_jakarta p-5 text-blue font-normal leading-[140%]">AWSUMMIT IBIZA
+                        </h1>
+                        <div class="flex items-center gap-5 ff_plus_jakarta leading-[150%]">
+                            <p class="textbase text-black font-normal ps-5">Date : TBA</p>
+                            <p class="textbase text-black font-normal">Time :TBA</p>
+                        </div>
+
+                        <p class="ff_plus_jakarta px-5 py-3 textbase text-red font-normal leading-[150%]">Location :TBA
+                        </p>
+
+                        <div class="border text-lightblue mx-5"></div>
+                        <span class="flex items-center justify-center py-4"><img class="max-w-[136px]"
+                                src="./assets/images/webp/dreamcam.webp" alt=""></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AW SUBMIT DINNER -->
+    <section class="overflow-hidden">
+        <div class="bg-no-repeat bg-center bg-auto; bg-cover min-h-full"
+            style="background-image: url(./assets/images/webp/dinner_bg.webp);">
+
+            <div class="flex items-center justify-center pt-20 ff_barlow_condensed font-semibold text-four_xl gap-1">
+                <p class="text-white">WHY CHOOSE</p>
+                <img src="./assets/images/webp/AW sumit.webp" alt="AW sumit">
+                <p class="text-white">DINNERS ?</p>
+            </div>
+
+            <div class="container max-w-[1140px]">
+                <div class="flex flex-wrap w-full gap-8 items-center justify-center py-20">
+                    <div class="lg:w-3/12">
+                        <div class="card_bg max-w-[300px] py-8 cursor-pointer hover:scale-[1.05] transition-all">
+                            <div class="flex items-center justify-center text-center flex-col gap-8">
+                                <img src="./assets/images/webp/tik_mark.webp" alt="tik_mark">
+                                <div class="flex items-cneter justify-center flex-col gap-2">
+                                    <p class="text-white ff_plus_jakarta text-lg font-bold">Exclusive Networking</p>
+                                    <p class="text-white ff_plus_jakarta textbase px-7 font-normal">Interact with top
+                                        advertisers
+                                        &
+                                        super affiliates</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="lg:w-3/12">
+                        <div class="card_bg max-w-[300px] py-8 cursor-pointer hover:scale-[1.05] transition-all">
+                            <div class="flex items-center justify-center text-center flex-col gap-8">
+                                <img src="./assets/images/webp/box_img.webp" alt="tik_mark">
+                                <div class="flex items-cneter justify-center flex-col gap-2">
+                                    <p class="text-white ff_plus_jakarta text-lg font-bold">Select Environment</p>
+                                    <p class="text-white ff_plus_jakarta textbase px-5 font-normal">Experience the
+                                        best
+                                        hospitality service </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="lg:w-3/12">
+                        <div class="card_bg max-w-[300px] py-8 cursor-pointer hover:scale-[1.05] transition-all">
+                            <div class="flex items-center justify-center text-center flex-col gap-8">
+                                <img src="./assets/images/webp/money_coin.webp" alt="tik_mark">
+                                <div class="flex items-cneter justify-center flex-col gap-2">
+                                    <p class="text-white ff_plus_jakarta text-lg font-bold">Money Efficiency</p>
+                                    <p class="text-white ff_plus_jakarta textbase px-5 font-normal">Save up by choosing
+                                        AWSummit Dinner Packages</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="lg:w-3/12">
+                        <div class="card_bg max-w-[300px] py-8 cursor-pointer hover:scale-[1.05] transition-all">
+                            <div class="flex items-center justify-center text-center flex-col gap-8">
+                                <img src="./assets/images/webp/exposure.webp" alt="tik_mark">
+                                <div class="flex items-cneter justify-center flex-col gap-2">
+                                    <p class="text-white ff_plus_jakarta text-lg font-bold">Brand Exposure</p>
+                                    <p class="text-white ff_plus_jakarta textbase px-5 font-normal">Get your brand
+                                        promoted during the dinner</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="lg:w-3/12">
+                        <div class="card_bg max-w-[300px] py-8 cursor-pointer hover:scale-[1.05] transition-all">
+                            <div class="flex items-center justify-center text-center flex-col gap-8">
+                                <img src="./assets/images/webp/simple_coin.webp" alt="tik_mark">
+                                <div class="flex items-cneter justify-center flex-col gap-2">
+                                    <p class="text-white ff_plus_jakarta text-lg font-bold">Data & Leads</p>
+                                    <p class="text-white ff_plus_jakarta textbase px-7 font-normal">Connect with
+                                        attendees during & after the event</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="lg:w-3/12">
+                        <div class="card_bg max-w-[300px] py-8 cursor-pointer hover:scale-[1.05] transition-all">
+                            <div class="flex items-center justify-center text-center flex-col gap-8">
+                                <img src="./assets/images/webp/Deal_img.webp" alt="tik_mark">
+                                <div class="flex items-cneter justify-center flex-col gap-2">
+                                    <p class="text-white ff_plus_jakarta text-lg font-bold">Best Deals</p>
+                                    <p class="text-white ff_plus_jakarta textbase px-7 font-normal">Get 20% discount for
+                                        the upcoming AWSummit</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </div>
     </section>
+
+    <section>
+        <div class="pt-12 mt-0.5 pb-24 mb-4">
+            <div class="container max-w-[1140px]">
+
+                <span class="flex items-center justify-center">
+                    <p class="ff_barlow_condensed font-semibold text-four_xl text-dark">AWSUMMIT DINNERS SPONSORS</p>
+                </span>
+
+                <div class="flex flex-wrap items-center justify-center py-12">
+                    <div class="w-3/12">
+                        <img src="./assets/images/webp/ad_media_card.webp" alt="">
+                    </div>
+                    <div class="w-3/12">
+                        <img src="./assets/images/webp/ad_media_card.webp" alt="">
+                    </div>
+                    <div class="w-3/12">
+                        <img src="./assets/images/webp/ad_media_card.webp" alt="">
+                    </div>
+                    <div class="w-3/12">
+                        <img src="./assets/images/webp/ad_media_card.webp" alt="">
+                    </div>
+
+                    <div class="w-3/12 py-20">
+                        <img src="./assets/images/webp/ad_media_card.webp" alt="">
+                    </div>
+                    <div class="w-3/12 py-20">
+                        <img src="./assets/images/webp/ad_media_card.webp" alt="">
+                    </div>
+                    <div class="w-3/12 py-20">
+                        <img src="./assets/images/webp/ad_media_card.webp" alt="">
+                    </div>
+                    <div class="w-3/12 py-20">
+                        <img src="./assets/images/webp/ad_media_card.webp" alt="">
+                    </div>
+
+                    <div class="w-3/12">
+                        <img src="./assets/images/webp/ad_media_card.webp" alt="">
+                    </div>
+                    <div class="w-3/12">
+                        <img src="./assets/images/webp/ad_media_card.webp" alt="">
+                    </div>
+                    <div class="w-3/12">
+                        <img src="./assets/images/webp/ad_media_card.webp" alt="">
+                    </div>
+                    <div class="w-3/12">
+                        <img src="./assets/images/webp/ad_media_card.webp" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- EMAIL-SECTION -->
+    <section class="overflow-hidden">
+        <div class="bg-no-repeat bg-center bg-auto; bg-cover min-h-full"
+            style="background-image: url(./assets/images/webp/Never_Mis.webp);">
+            <div class="container max-w-[1140px] py-24">
+                <div class="email_card my-4 !w-100">
+                    <p
+                        class="ff_barlow_condensed pt-8 pb-4 text-center text-white text-four_xl font-semibold flex items-center justify-center text-center px-4">
+                        NEVER
+                        MISS AN
+                        UPDATE
+                    </p>
+                    <p
+                        class="ff_plus_jakarta text-center pb-8 text-white text-2xl font-normal opacity-70 flex items-center justify-center px-4">
+                        Sign up for email updates and stay up to date</p>
+
+                    <div class="flex md:flex-nowrap flex-wrap sm:px-14 px-4 pb-10 gap-x-4">
+
+                        <span class="!max-w-[452px] email_box w-full"><input type="text" placeholder="YOUR NAME"
+                                class="opacity-70 ff_plus_jakarta bg-transparent py-5 px-4 text-white w-full"></span>
+
+                        <span class="!max-w-[556px] email_box w-full mt-5 md:mt-0"><input type="email"
+                                placeholder="EMAIL ADDRESS"
+                                class="opacity-70 ff_plus_jakarta bg-transparent py-5 px-4 text-white w-full"></span>
+
+                    </div>
+
+                    <div class="flex items-center justify-between sm:flex-nowrap flex-wrap px-16 text-center pb-10">
+                        <span class="mb-0 pe-4">
+                            <input type="checkbox" id="checkbox" class="bg-transparent">
+                            <label for="checkbox"
+                                class="text-white leading-[150%] ff_plus_jakarta font-normal textbase ps-1">I
+                                Agree With
+                                Terms
+                                & Conditions</label>
+                        </span>
+
+
+                        <button
+                            class="text-white ff_barlow_condensed font-semibold text-2xl px-8 py-4 bg-gradient-to-r from-[#553581] from-66.54% to-[#B80FB6] hover:bg-gradient-to-b from-[#553581] from-66.54% to-[#B80FB6] transition-all sm:ms-24">Submit</button>
+
+
+                    </div>
+
+                    <div class="flex items-center justify-center flex-wrap px-16 text-center mx-3.5 pb-14 mb-1">
+                        <p class="text-white ff_barlow_condensed text-xxl font-normal leading-[135%]">Join Our Online
+                            Communities</p>
+                        <div class="flex items-center justify-center gap-3 ps-4 sm:mt-0 mt-5">
+                            <a href="#" class="hover:scale-[1.1] transition-all hover:translate-y-[-8px]"><img
+                                    src="./assets/images/webp/facebook.webp" alt="facebook"></a>
+                            <a href="#" class="hover:scale-[1.1] transition-all hover:translate-y-[-8px]"><img
+                                    src="./assets/images/webp/telegram.webp" alt="telegram"></a>
+                            <a href="#" class="hover:scale-[1.1] transition-all hover:translate-y-[-8px]"><img
+                                    src="./assets/images/webp/instagram.webp" alt="instagram"></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <section class="overflow-hidden">
+        <div class="container max-w-[1140px]">
+
+            <div class="flex items-center justify-between flex-wrap py-14">
+                <div class="ps-0">
+                    <img src="./assets/images/webp/AW sumit.webp" alt="">
+                    <div class="flex gap-4 py-4 relative">
+                        <span class="absolute left-[48%] pt-1.5"><img src="./assets/images/png/footer_line.png"
+                                alt=""></span>
+                        <p class="ff_plus_jakarta textbase opacity-70 font-normal leading-[150%]">AWSummit Events</p>
+                        <p class="ff_plus_jakarta textbase opacity-70 font-normal leading-[150%]">Bucharest and lbiza
+                        </p>
+                    </div>
+                </div>
+                <div class="ps-0 lg:order-1 order-2">
+                    <div class="flex flex-wrap items-center justify-center gap-5 relative">
+
+                        <span class="absolute left-[21.5%] sm:block hidden"><img
+                                src="./assets/images/png/footer_line.png" alt=""></span>
+                        <span class="absolute left-[56.5%] sm:block hidden"><img
+                                src="./assets/images/png/footer_line.png" alt=""></span>
+                        <span class="absolute right-[18%] sm:block hidden"><img
+                                src="./assets/images/png/footer_line.png" alt=""></span>
+
+                        <a href="#" class="ff_plus_jakarta textbase opacity-70 font-normal leading-[150%]">Privacy
+                            Policy</a>
+                        <a href="#" class="ff_plus_jakarta textbase opacity-70 font-normal leading-[150%]">Terms and
+                            Conditions</a>
+                        <a href="#" class="ff_plus_jakarta textbase opacity-70 font-normal leading-[150%]">Billing
+                            Support</a>
+                        <a href="#" class="ff_plus_jakarta textbase opacity-70 font-normal leading-[150%]">Contact
+                            Us</a>
+                    </div>
+
+                    <div class="flex items-center justify-center py-3">
+                        <img class="opacity-80" src="./assets/images/png/copyright_symbol.png" alt="">
+                        <p class="opacity-70">2023-24. All Rights Reserved</p>
+                    </div>
+                </div>
+
+                <div class="ps-0 lg:order-2 order-1">
+                    <div class="flex gap-3 pb-3">
+                        <a href="#" class="hover:translate-y-[-5px] transition-all"><img
+                                src="./assets/images/webp/footer_facebook.webp" alt=""></a>
+                        <a href="#" class="hover:translate-y-[-5px] transition-all"><img
+                                src="./assets/images/webp/footer_instagram.webp" alt=""></a>
+                        <a href="#" class="hover:translate-y-[-5px] transition-all"><img
+                                src="./assets/images/webp/footer_twitter.webp" alt=""></a>
+                        <a href="#" class="hover:translate-y-[-5px] transition-all"><img
+                                src="./assets/images/webp/linkedin.webp" alt=""></a>
+                        <a href="#" class="hover:translate-y-[-5px] transition-all"><img
+                                src="./assets/images/webp/youtube.webp" alt=""></a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/tilt.js@1.1.21/dest/tilt.jquery.min.js"></script>
+    <script>
+        // PRELOADER
+        // setTimeout(() => {
+        //     document.body.classList.remove("overflow-hidden");
+        //     document.getElementById("pre-loader").style.display = "none";
+        // }, 2500);
+        // JavaScript to handle the responsive navigation menu
+        // function show() {
+        //     document.getElementById("navMenu").classList.add("!start-0");
+        //     document.body.classList.add("overflow-hidden");
+        // }
+
+        // function hide() {
+        //     document.getElementById("navMenu").classList.remove("!start-0");
+        //     document.body.classList.remove("overflow-hidden");
+        // }
+
+        // // TOP BUTTON
+        // const topBtn = document.getElementById("topBtn");
+        // window.addEventListener("scroll", function scrollFunction() {
+        //     if (document.documentElement.scrollTop > 100) {
+        //         topBtn.style.display = "block";
+        //     } else {
+        //         topBtn.style.display = "none";
+        //     }
+        // });
+        // const backToTop = () => {
+        //     document.documentElement.scrollTop = 0;
+        // };
+    </script>
 </body>
 
 </html>

@@ -1,3 +1,24 @@
-.backgroud {
-    background: linear-gradient(248.43deg, #B80FB6 -51.42%, #553581 66.54%);
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap');
+
+.ff_plus_jakarta {
+    font-family: "plus jakarta Sans";
+}
+
+.ff_barlow_condensed {
+    font-family: "barlow condensed";
+}
+
+.card_bg {
+    background: rgba(0, 0, 0, 0.20);
+    backdrop-filter: blur(50px);
+}
+
+.email_card {
+    border: 1px solid rgba(255, 255, 255, 0.56);
+    background: rgba(17, 17, 17, 0.50);
+    backdrop-filter: blur(11.5px);
+}
+
+.email_box {
+    border: 1px solid rgba(255, 255, 255, 0.20);
 }
