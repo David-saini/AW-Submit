@@ -13,6 +13,10 @@
     backdrop-filter: blur(50px);
 }
 
+.bg_color {
+    background-color: #f8f8f8;
+}
+
 .email_card {
     border: 1px solid rgba(255, 255, 255, 0.56);
     background: rgba(17, 17, 17, 0.50);

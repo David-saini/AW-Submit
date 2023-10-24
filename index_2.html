@@ -61,8 +61,22 @@
         <img src="assets/images/svg/Logo.svg" alt="Union" />
     </div>
 
+    <!-- BackToTop -->
+    <button onclick="backToTop()"
+        class="fixed bottom-0 right-0 mb-6 mr-6 z-[99] bg-gradient-to-r from-[#FF3939] to-[#4844F2] p-4 rounded-[50px]"
+        id="topBtn">
+        <svg width="20" height="20" fill="white" viewBox="0 0 16 16">
+            <path fillRule="evenodd"
+                d="M7.646 2.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 3.707 2.354 9.354a.5.5 0 1 1-.708-.708l6-6z">
+            </path>
+            <path fillRule="evenodd"
+                d="M7.646 6.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 7.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z">
+            </path>
+        </svg>
+    </button>
+
     <!-- navbar -->
-    <!-- <header>
+    <header>
         <div class="max-w-[1243px] mx-auto">
             <div class="py-3 md:py-[18px] mx-4 items-center flex justify-between">
                 <div class="flex justify-between items-center w-full relative z-20">
@@ -81,28 +95,28 @@
                     id="navMenu">
                     <li>
                         <a onclick="hide()" href="#PARTICIPANTS"
-                            class="ff_plus_jakarta relative text-base font-semibold leading-[150%] text-black hover:text-red after:absolute after:w-0 duration-300 after:duration-300 after:h-0.5 after:bg-red after:bottom-0 after:left-0 hover:after:w-full">PARTICIPANTS</a>
+                            class="ff_plus_jakarta relative text-base font-semibold leading-[150%] text-black hover:text-[#B80FB6] after:absolute after:w-0 duration-300 after:duration-300 after:h-0.5 after:bg-[#B80FB6] after:bottom-0 after:left-0 hover:after:w-full">PARTICIPANTS</a>
                     </li>
 
                     <li class="lg:ps-9">
                         <a onclick="hide()" href="#AGENDA"
-                            class="ff_plus_jakarta relative text-base font-semibold leading-[150%] text-black hover:text-red after:absolute after:w-0 duration-300 after:duration-300 after:h-0.5 after:bg-red after:bottom-0 after:left-0 hover:after:w-full">AGENDA</a>
+                            class="ff_plus_jakarta relative text-base font-semibold leading-[150%] text-black hover:text-[#B80FB6] after:absolute after:w-0 duration-300 after:duration-300 after:h-0.5 after:bg-[#B80FB6] after:bottom-0 after:left-0 hover:after:w-full">AGENDA</a>
                     </li>
                     <li class="lg:ps-9">
                         <a onclick="hide()" href="#SPEAKERS"
-                            class="ff_plus_jakarta relative text-base font-semibold leading-[150%] text-black hover:text-red after:absolute after:w-0 duration-300 after:duration-300 after:h-0.5 after:bg-red after:bottom-0 after:left-0 hover:after:w-full">SPEAKERS</a>
+                            class="ff_plus_jakarta relative text-base font-semibold leading-[150%] text-black hover:text-[#B80FB6] after:absolute after:w-0 duration-300 after:duration-300 after:h-0.5 after:bg-[#B80FB6] after:bottom-0 after:left-0 hover:after:w-full">SPEAKERS</a>
                     </li>
                     <li class="lg:ps-9">
                         <a onclick="hide()" href="#FAQ"
-                            class="ff_plus_jakarta relative text-base font-semibold leading-[150%] text-black hover:text-[#B80FB6] after:absolute after:w-0 duration-300 after:duration-300 after:h-0.5 after:bg-red after:bottom-0 after:left-0 hover:after:w-full">FAQ</a>
+                            class="ff_plus_jakarta relative text-base font-semibold leading-[150%] text-black hover:text-[#B80FB6] after:absolute after:w-0 duration-300 after:duration-300 after:h-0.5 after:bg-[#B80FB6] after:bottom-0 after:left-0 hover:after:w-full">FAQ</a>
                     </li>
                     <li class="lg:ps-9">
                         <a onclick="hide()" href="#LOGIN"
-                            class="ff_plus_jakarta relative text-base font-semibold leading-[150%] text-black hover:text-red after:absolute after:w-0 duration-300 after:duration-300 after:h-0.5 after:bg-red after:bottom-0 after:left-0 hover:after:w-full">LOGIN</a>
+                            class="ff_plus_jakarta relative text-base font-semibold leading-[150%] text-black hover:text-[#B80FB6] after:absolute after:w-0 duration-300 after:duration-300 after:h-0.5 after:bg-[#B80FB6] after:bottom-0 after:left-0 hover:after:w-full">LOGIN</a>
                     </li>
 
                     <button
-                        class="px-8 py-[9px] border-[1px] text-dark font-extrabold text-base ff_plus_jakarta border-solid border-[black] xl:ms-[66px] lg:ms-4 hover:text-white hover:bg-gradient-to-r from-[#553581] from-66.54% to-[#B80FB6] hover:border-transparent">EXHIBIT</button>
+                        class="px-8 py-[9px] border-[1px] text-dark font-extrabold text-base ff_plus_jakarta border-solid border-[black] xl:ms-[66px] lg:ms-4 hover:text-white hover:bg-gradient-to-r duration-300 from-[#553581] from-66.54% to-[#B80FB6] hover:border-transparent ">EXHIBIT</button>
                     <button onclick="hide()" class="absolute lg:hidden top-[15px] right-[20px]">
                         <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -118,17 +132,19 @@
                 </div>
             </div>
         </div>
-    </header> -->
+    </header>
 
     <!-- OUR EXCLUSIVE DINNERS START-->
-<<<<<<< HEAD
-    <!-- <section  class="bg-[url('/assets/images/png/Hero-Saction.png')] bg-no-repeat bg-center bg-cover">
-            <div class="container py-[141px]">
-               <h2 class="text-center text-white ff_barlow_condensed md:text-six_xl text-[35px] font-bold leading-[110%]">OUR EXCLUSIVE DINNERS</h2>
-               <p class="text-center text-white ff_plus_jakarta font-medium leading-[150%] md:text-xll text-xl">Where networking meets excellence</p>
-            </div>
-        </section> -->
-=======
+
+    <section class="bg-[url('/assets/images/png/Hero-Saction.png')] bg-no-repeat bg-center bg-cover">
+        <div class="container py-[141px]">
+            <h2 class="text-center text-white ff_barlow_condensed md:text-six_xl text-[35px] font-bold leading-[110%]">
+                OUR EXCLUSIVE DINNERS</h2>
+            <p class="text-center text-white ff_plus_jakarta font-medium leading-[150%] md:text-xll text-xl">Where
+                networking meets excellence</p>
+        </div>
+    </section>
+
     <section class="bg-[url('/assets/images/png/Hero-Saction.png')] bg-no-repeat bg-center bg-cover">
         <div class="container py-[141px]">
             <h2 class="text-center text-white ff_barlow_condensed md:text-six_xl text-[35px] font-bold leading-[110%]">
@@ -137,10 +153,10 @@
                 networking meets excellence</p>
         </div>
     </section>
->>>>>>> 38496db5d2cb32876742a0b9ab6338ec668ca850
+
     <!-- OUR EXCLUSIVE DINNERS END-->
     <!-- About Start -->
-    <!-- <section>
+    <section id="PARTICIPANTS">
         <div class="container my-[120px]">
             <div class="flex xl:flex-row flex-wrap justify-center items-center flex-col-reverse">
                 <div class="xl:w-6/12">
@@ -195,105 +211,119 @@
 
             </div>
         </div>
-    </section> -->
+    </section>
     <!-- About END -->
     <!-- AWSUMMIT BANGKOK START-->
-<<<<<<< HEAD
-    <!-- <section class="bg-[url('/assets/images/png/awsu.png')] bg-no-repeat bg-center bg-cover"id='LOGIN'>
-=======
-    <section class="bg-[url('/assets/images/png/awsu.png')] bg-no-repeat bg-center bg-cover" id='LOGIN'>
->>>>>>> 38496db5d2cb32876742a0b9ab6338ec668ca850
-        <div class="container py-[131px]">
-            <div class="flex justify-center flex-col ">
-                <h2
-                    class="ff_barlow_condensed md:text-five_xl text-[35px] text-white font-semibold leading-[120%] pb-6 text-center">
-                    AWSUMMIT
-                    BANGKOK</h2>
-                <p class="ff_barlow_condensed md:text-xxl text-xl font-semibold text-white leading-[135%] text-center">
-                    Pastel
-                    Rooftop bar &
-                    Mediterranean Dining</p>
-                <div class="flex justify-center items-center pt-4 leading-[125%]">
-                    <span class="sm:pe-3">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M12 11.5C11.337 11.5 10.7011 11.2366 10.2322 10.7678C9.76339 10.2989 9.5 9.66304 9.5 9C9.5 8.33696 9.76339 7.70107 10.2322 7.23223C10.7011 6.76339 11.337 6.5 12 6.5C12.663 6.5 13.2989 6.76339 13.7678 7.23223C14.2366 7.70107 14.5 8.33696 14.5 9C14.5 9.3283 14.4353 9.65339 14.3097 9.95671C14.1841 10.26 13.9999 10.5356 13.7678 10.7678C13.5356 10.9999 13.26 11.1841 12.9567 11.3097C12.6534 11.4353 12.3283 11.5 12 11.5ZM12 2C10.1435 2 8.36301 2.7375 7.05025 4.05025C5.7375 5.36301 5 7.14348 5 9C5 14.25 12 22 12 22C12 22 19 14.25 19 9C19 7.14348 18.2625 5.36301 16.9497 4.05025C15.637 2.7375 13.8565 2 12 2Z"
-                                fill="white" />
-                        </svg>
-                    </span>
-                    <p class="ff_plus_jakarta md:text-2xl text-sm font-medium text-white text-center ">
-                        Aira Hotel - 22nd floor, 14 Soi Sukhumvit 11
-                    </p>
-                </div>
-                <div class="flex justify-center pt-4 gap-[30px] leading-[125%]">
-                    <div class="flex justify-center items-center">
-                        <span class="sm:pe-3 pe-2"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M2 19C2 20.7 3.3 22 5 22H19C20.7 22 22 20.7 22 19V11H2V19ZM19 4H17V3C17 2.4 16.6 2 16 2C15.4 2 15 2.4 15 3V4H9V3C9 2.4 8.6 2 8 2C7.4 2 7 2.4 7 3V4H5C3.3 4 2 5.3 2 7V9H22V7C22 5.3 20.7 4 19 4Z"
-                                    fill="white" />
-                            </svg>
-                        </span>
-                        <p class="ff_plus_jakarta md:text-2xl text-base font-medium text-white leading-[125%]">December
-                            8th </p>
-                    </div>
-                    <div class="flex justify-center items-center">
-                        <span class="sm:pe-3 pe-2"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M12 22C6.477 22 2 17.523 2 12C2 6.477 6.477 2 12 2C17.523 2 22 6.477 22 12C22 17.523 17.523 22 12 22ZM13 12V7H11V14H17V12H13Z"
-                                    fill="white" />
-                            </svg>
-                        </span>
-                        <p class="ff_plus_jakarta md:text-2xl text-base font-medium text-white leading-[125%]">Time :
-                            TBA</p>
-                    </div>
-                </div>
-            </div>
 
-            <div class="flex justify-center items-center pt-12">
-                <button
-                    class="bg-gradient-to-r from-[#553581] from-66.54% to-[#B80FB6] px-8 py-4 ff_barlow_condensed text-2xl font-semibold text-white leading-[120%] outline-0 border-0">Sign
-                    Up</button>
-            </div>
-        </div>
-        <div class="bg-[url('/assets/images/png/white_img.png')] bg-no-repeat bg-center bg-cover">
-            <div class="container">
-                <div class="center_Benefite py-7  gap-[70px]">
-                    <div>
-                        <img src="assets/images/svg/Media.svg" alt="Media">
+    <section class="bg-[url('/assets/images/png/awsu.png')] bg-no-repeat bg-center bg-cover" id='LOGIN'>
+
+        <section class="bg-[url('/assets/images/png/awsu.png')] bg-no-repeat bg-center bg-cover" id='LOGIN'>
+
+
+            <section class="bg-[url('/assets/images/png/awsu.png')] bg-no-repeat bg-center bg-cover" id='LOGIN'>
+
+                <div class="container py-[131px]">
+                    <div class="flex justify-center flex-col ">
+                        <h2
+                            class="ff_barlow_condensed md:text-five_xl text-[35px] text-white font-semibold leading-[120%] pb-6 text-center">
+                            AWSUMMIT
+                            BANGKOK</h2>
+                        <p
+                            class="ff_barlow_condensed md:text-xxl text-xl font-semibold text-white leading-[135%] text-center">
+                            Pastel
+                            Rooftop bar &
+                            Mediterranean Dining</p>
+                        <div class="flex justify-center items-center pt-4 leading-[125%]">
+                            <span class="sm:pe-3">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M12 11.5C11.337 11.5 10.7011 11.2366 10.2322 10.7678C9.76339 10.2989 9.5 9.66304 9.5 9C9.5 8.33696 9.76339 7.70107 10.2322 7.23223C10.7011 6.76339 11.337 6.5 12 6.5C12.663 6.5 13.2989 6.76339 13.7678 7.23223C14.2366 7.70107 14.5 8.33696 14.5 9C14.5 9.3283 14.4353 9.65339 14.3097 9.95671C14.1841 10.26 13.9999 10.5356 13.7678 10.7678C13.5356 10.9999 13.26 11.1841 12.9567 11.3097C12.6534 11.4353 12.3283 11.5 12 11.5ZM12 2C10.1435 2 8.36301 2.7375 7.05025 4.05025C5.7375 5.36301 5 7.14348 5 9C5 14.25 12 22 12 22C12 22 19 14.25 19 9C19 7.14348 18.2625 5.36301 16.9497 4.05025C15.637 2.7375 13.8565 2 12 2Z"
+                                        fill="white" />
+                                </svg>
+                            </span>
+                            <p class="ff_plus_jakarta md:text-2xl text-sm font-medium text-white text-center ">
+                                Aira Hotel - 22nd floor, 14 Soi Sukhumvit 11
+                            </p>
+                        </div>
+                        <div class="flex justify-center pt-4 gap-[30px] leading-[125%]">
+                            <div class="flex justify-center items-center">
+                                <span class="sm:pe-3 pe-2"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M2 19C2 20.7 3.3 22 5 22H19C20.7 22 22 20.7 22 19V11H2V19ZM19 4H17V3C17 2.4 16.6 2 16 2C15.4 2 15 2.4 15 3V4H9V3C9 2.4 8.6 2 8 2C7.4 2 7 2.4 7 3V4H5C3.3 4 2 5.3 2 7V9H22V7C22 5.3 20.7 4 19 4Z"
+                                            fill="white" />
+                                    </svg>
+                                </span>
+                                <p class="ff_plus_jakarta md:text-2xl text-base font-medium text-white leading-[125%]">
+                                    December
+                                    8th </p>
+                            </div>
+                            <div class="flex justify-center items-center">
+                                <span class="sm:pe-3 pe-2"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M12 22C6.477 22 2 17.523 2 12C2 6.477 6.477 2 12 2C17.523 2 22 6.477 22 12C22 17.523 17.523 22 12 22ZM13 12V7H11V14H17V12H13Z"
+                                            fill="white" />
+                                    </svg>
+                                </span>
+                                <p class="ff_plus_jakarta md:text-2xl text-base font-medium text-white leading-[125%]">
+                                    Time :
+                                    TBA</p>
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        <img src="assets/images/svg/Honeywell.svg" alt="Honeywell">
-                    </div>
-                    <div>
-                        <img src="assets/images/svg/Traffic.svg" alt="Traffic">
-                    </div>
-                    <div>
-                        <img src="assets/images/svg/ad_supply.svg" alt="ad_supply">
-                    </div>
-                    <div>
-                        <img src="assets/images/svg/love.svg" alt="love">
+
+                    <div class="flex justify-center items-center pt-12">
+                        <button
+                            class="bg-gradient-main px-8 py-4 ff_barlow_condensed text-2xl font-semibold text-white leading-[120%] outline-0 border-0 ">Sign
+                            Up</button>
                     </div>
                 </div>
-            </div>
-        </div>
-<<<<<<< HEAD
-    </section> -->
-    <!-- AWSUMMIT BANGKOK END-->
-=======
+                <div class="bg-[url('/assets/images/png/white_img.png')] bg-no-repeat bg-center bg-cover">
+                    <div class="max-w-[1225px] mx-auto">
+                        <div class="center_Benefite py-7 gap-[70px]">
+                            <div>
+                                <img class="hover:scale-[1.3] duration-300" src="assets/images/svg/Media.svg"
+                                    alt="Media">
+                            </div>
+                            <div>
+                                <img class="hover:scale-[1.3] duration-300" src="assets/images/svg/Honeywell.svg"
+                                    alt="Honeywell">
+                            </div>
+                            <div>
+                                <img class="hover:scale-[1.3] duration-300" src="assets/images/svg/Traffic.svg"
+                                    alt="Traffic">
+                            </div>
+                            <div>
+                                <img class="hover:scale-[1.3] duration-300" src="assets/images/svg/ad_supply.svg"
+                                    alt="ad_supply">
+                            </div>
+                            <div>
+                                <img class="hover:scale-[1.3] duration-300" src="assets/images/svg/love.svg" alt="love">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <!-- AWSUMMIT BANGKOK END-->
+
+        </section>
+        <!-- AWSUMMIT BANGKOK END-->
+
+        <!-- jquery -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+            integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <!-- slick.min.js -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+            integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
     </section>
     <!-- AWSUMMIT BANGKOK END-->
 
-    <!-- jquery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
-        integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <!-- slick.min.js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
-        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
->>>>>>> 38496db5d2cb32876742a0b9ab6338ec668ca850
 
 
     <script src="https://unpkg.com/tilt.js@1.1.21/dest/tilt.jquery.min.js"></script>
@@ -324,44 +354,44 @@
             cssEase: 'linear',
 
             responsive: [{
-                    breakpoint: 1440,
-                    settings: {
-                        slidesToShow: 5,
-                        slidesToScroll: 1,
-                        infinite: true,
-                    }
-                },
-                {
-                    breakpoint: 960,
-                    settings: {
-                        slidesToShow: 4,
-                        slidesToScroll: 1,
-                        infinite: true,
-
-                    }
-                },
-                {
-                    breakpoint: 640,
-                    settings: {
-                        arrows: false,
-                        slidesToShow: 3,
-                    }
+                breakpoint: 1440,
+                settings: {
+                    slidesToShow: 5,
+                    slidesToScroll: 1,
+                    infinite: true,
                 }
+            },
+            {
+                breakpoint: 960,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 1,
+                    infinite: true,
+
+                }
+            },
+            {
+                breakpoint: 640,
+                settings: {
+                    arrows: false,
+                    slidesToShow: 3,
+                }
+            }
             ]
         });
 
         // TOP BUTTON
-        // const topBtn = document.getElementById("topBtn");
-        // window.addEventListener("scroll", function scrollFunction() {
-        //     if (document.documentElement.scrollTop > 100) {
-        //         topBtn.style.display = "block";
-        //     } else {
-        //         topBtn.style.display = "none";
-        //     }
-        // });
-        // const backToTop = () => {
-        //     document.documentElement.scrollTop = 0;
-        // };
+        const topBtn = document.getElementById("topBtn");
+        window.addEventListener("scroll", function scrollFunction() {
+            if (document.documentElement.scrollTop > 100) {
+                topBtn.style.display = "block";
+            } else {
+                topBtn.style.display = "none";
+            }
+        });
+        const backToTop = () => {
+            document.documentElement.scrollTop = 0;
+        };
     </script>
 </body>
 
