@@ -31,3 +31,25 @@
     background: #FFF;
     box-shadow: -4px 17px 39px 0px rgba(0, 0, 0, 0.12);
 }
+
+.bg-gradient-main {
+    background: linear-gradient(248.43deg, #B80FB6 -51.42%, #553581 66.54%);
+}
+
+.bg-gradient-main:hover {
+    background: linear-gradient(248.43deg, #553581 -51.42%, #B80FB6 66.54%);
+}
+
+.Box_Shadow_Bg {
+    box-shadow: 0px 4px 23px 0px rgba(0, 0, 0, 0.06);
+}
+
+.Box_Shadow_about {
+    box-shadow: 15px 5px 17px 7px rgba(224, 77, 253, 0.12);
+}
+
+@media (max-width:1111px) {
+    .mt_5 {
+        margin-top: 24px;
+    }
+}
